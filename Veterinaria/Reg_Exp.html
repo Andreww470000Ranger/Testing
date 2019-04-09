@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Expediente.</title>
+    <link rel="stylesheet" href="CSS\Co.css">
+    <script type="text/javascript">
+   $("textarea").resizable();
+   $("textarea").autoresize();
+ </script>
+  </head>
+  <body>
+<form class="box" action="Tab_Exp.php" method="post">
+  <h1><a href="Inicio.html">Regresar al inicio.</a></h1>
+  <input type="text" name="Nom_" placeholder="Nombre de la mascota" required>
+  <input type="text" name="Ape_" placeholder="Apellido de la mascota" required>
+  <input type="text" name="Raz_" placeholder="Raza de la mascota" required>
+  <input type="text" name="Fech" placeholder="Ingrese la fecha de hoy" required>
+  <input type="text" name="Prop" placeholder="Ingrese el propietario" required>
+  <textarea class="Estl" type="text" name="Acc_" placeholder="Crear una acción al expediente..." cols="30" rows="8"></textarea>
+  <input type="submit" name="" value="Registre la acción.">
+</form>
+  </body>
+</html>
